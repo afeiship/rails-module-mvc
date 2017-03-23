@@ -1,0 +1,10 @@
+<h1>Welcome!</h1>
+
+<table>
+<% @issues.each do |item| %>
+  <tr>
+    <td class="title"><%= item[:title] %></td>
+    <td class="content"><%= item[:content] %></td>
+  </tr>
+<% end %>
+</table>

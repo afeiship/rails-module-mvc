@@ -1,0 +1,20 @@
+// Place all the styles related to the page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.page-welcome{
+  table{
+    width:100%;
+    border:1px solid #f00;
+    td{
+      border: 1px solid #000;
+
+      &.title{
+        color:#00f;
+        font-weight: bold;
+      }
+      &.content{
+        color:#f60;
+      }
+    }
+  }
+}
