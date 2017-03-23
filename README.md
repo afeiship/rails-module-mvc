@@ -1,4 +1,4 @@
-# README
+# rails-module-mvc
 > Rails module for basic model view controller.
 
 
